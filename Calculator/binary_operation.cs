@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class BinaryOperation
+    public abstract class BinaryOperation
     {
         public abstract double bbbbbb(double x, double y);
     }
