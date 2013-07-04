@@ -7,7 +7,7 @@ namespace Calculator
 {
     public class Pow : BinaryOperation
     {
-        public override double bbbbbb(double x, double y)
+        public override double Calculate(double x, double y)
         {
             return Math.Pow(x, y);
         }

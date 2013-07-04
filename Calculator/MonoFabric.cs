@@ -7,7 +7,7 @@ namespace Calculator
 {
     public class MonoFabric
     {
-        public static operation Calc(string calculatorName)
+        public static Operation Calc(string calculatorName)
         {
             switch (calculatorName)
             {

@@ -24,13 +24,13 @@ namespace Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            dddddddd("+");
+            Calc2("+");
         }
 
 
         private void button2_Click(object sender, EventArgs e)
         {
-            dddddddd("-");
+            Calc2("-");
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -44,80 +44,80 @@ namespace Calculator
 
         private void button3_Click(object sender, EventArgs e)
         {
-            dddddddd("*");
+            Calc2("*");
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            cccccccc("sqrt");
+             Calc1("sqrt");
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            cccccccc("sin");       
+            Calc1("sin");       
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            dddddddd("x^y");
+            Calc2("x^y");
         }
 
         private void button7_Click_1(object sender, EventArgs e)
         {
-            cccccccc("cos");
+            Calc1("cos");
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            cccccccc("tg");
+            Calc1("tg");
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            cccccccc("ctg");
+            Calc1("ctg");
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            cccccccc("ln10");
+            Calc1("ln10");
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            cccccccc("ln");
+            Calc1("ln");
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            cccccccc("asin");
+            Calc1("asin");
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            cccccccc("acos");
+            Calc1("acos");
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            cccccccc("atg");
+            Calc1("atg");
         }
-        private void cccccccc(string calcName)
+        private void Calc1(string calcName)
         {
-            operation calc = MonoFabric.Calc(calcName);
+            Operation calc = MonoFabric.Calc(calcName);
             double x = Convert.ToDouble(textBox1.Text);
-            textBox3.Text = calc.aaaaa(x).ToString();
+            textBox3.Text = calc.Calculate(x).ToString();
         }
-        private void dddddddd(string calcName)
+        private void Calc2(string calcName)
         {
             BinaryOperation calc = fabric.Calc(calcName);
             double x = Convert.ToDouble(textBox1.Text);
             double y = Convert.ToDouble(textBox2.Text);
-            textBox3.Text = calc.bbbbbb(x, y).ToString();
+            textBox3.Text = calc.Calculate(x, y).ToString();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            dddddddd("/");
+            Calc2("/");
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

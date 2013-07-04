@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Calculator
 {
-    public class Cotangens:operation
+    public class Cotangens:Operation
     {
-        public override double aaaaa(double x)
+        public override double Calculate(double x)
         {
             return Math.Cos(x)/Math.Sin(x);
         }

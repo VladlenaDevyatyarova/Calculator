@@ -7,6 +7,6 @@ namespace Calculator
 {
     public abstract class BinaryOperation
     {
-        public abstract double bbbbbb(double x, double y);
+        public abstract double Calculate(double x, double y);
     }
 }

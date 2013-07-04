@@ -5,8 +5,8 @@ using System.Text;
 
 namespace Calculator
 {
-    public abstract class operation
+    public abstract class Operation
     {
-        public abstract double aaaaa(double x);
+        public abstract double Calculate(double x);
     }
 }

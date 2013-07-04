@@ -51,7 +51,7 @@
     <Compile Include="Addition.cs" />
     <Compile Include="Asin.cs" />
     <Compile Include="Atg.cs" />
-    <Compile Include="binary_operation.cs" />
+    <Compile Include="BinaryOperation.cs" />
     <Compile Include="Cosinus_2.cs" />
     <Compile Include="Cotangens.cs" />
     <Compile Include="Delenie.cs" />

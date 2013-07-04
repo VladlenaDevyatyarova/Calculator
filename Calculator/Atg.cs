@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Calculator
 {
-    public class Atg: operation
+    public class Atg: Operation
     {
-        public override double aaaaa(double x)
+        public override double Calculate(double x)
         {
             return Math.Atan(x);
         }

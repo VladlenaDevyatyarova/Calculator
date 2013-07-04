@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Calculator
 {
-    public class Tangens: operation
+    public class Tangens: Operation
     {
-        public override double aaaaa(double x)
+        public override double Calculate(double x)
         {
             return Math.Tan(x);
         }
