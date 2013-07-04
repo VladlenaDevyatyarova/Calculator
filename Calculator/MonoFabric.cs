@@ -21,6 +21,7 @@ namespace Calculator
                 case "asin": return new Asin();
                 case "acos": return new Acos();
                 case "atg": return new Atg();
+                default: throw new Exception("Неизвестная операция");
             }
         }
     }
