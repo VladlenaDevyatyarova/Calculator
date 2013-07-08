@@ -103,18 +103,31 @@ namespace Calculator
         }
         private void Calc1(string calcName)
         {
-            Operation calc = MonoFabric.Calc(calcName);
-            double x = Convert.ToDouble(textBox1.Text);
-            textBox3.Text = calc.Calculate(x).ToString();
+            try
+            {
+                Operation calc = MonoFabric.Calc(calcName);
+                double x = Convert.ToDouble(textBox1.Text);
+                textBox3.Text = calc.Calculate(x).ToString();
+            }
+            catch (Exception ERROR)
+            {
+                textBox3.Text = ERROR.Message;
+            }
         }
         private void Calc2(string calcName)
         {
-            BinaryOperation calc = fabric.Calc(calcName);
-            double x = Convert.ToDouble(textBox1.Text);
-            double y = Convert.ToDouble(textBox2.Text);
-            textBox3.Text = calc.Calculate(x, y).ToString();
+            try
+            {
+                BinaryOperation calc = Fabric.Calc(calcName);
+                double x = Convert.ToDouble(textBox1.Text);
+                double y = Convert.ToDouble(textBox2.Text);
+                textBox3.Text = calc.Calculate(x, y).ToString();
+            }
+            catch (Exception ERROR) 
+            {
+                textBox3.Text = ERROR.Message;
+            }
         }
-
         private void button4_Click(object sender, EventArgs e)
         {
             Calc2("/");
