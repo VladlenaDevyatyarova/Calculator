@@ -9,7 +9,7 @@ namespace Calculator
     {
         public override double Calculate(double x)
         {
-            return Math.Tan(x);
+            return Math.Round(Math.Tan(x*3.14/180));
         }
     }
 }

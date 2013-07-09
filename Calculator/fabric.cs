@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    public class fabric
+    public class Fabric
     {
         public static BinaryOperation Calc(string calculatorName)
         {

@@ -11,7 +11,9 @@ namespace Calculator
         {
             switch (calculatorName)
             {
-                case "321": return new Puz();
+                case "321": return new BubbleM();
+                case "Bubble": return new Bubble();
+                case "Gnome": return new Bubble();
                 default: throw new Exception("Неизвестная операция");
             }
         }

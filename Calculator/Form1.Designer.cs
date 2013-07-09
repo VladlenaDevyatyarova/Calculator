@@ -55,7 +55,7 @@
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(29, 22);
+            this.textBox1.Location = new System.Drawing.Point(9, 9);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(97, 20);
             this.textBox1.TabIndex = 0;
@@ -67,7 +67,7 @@
             // textBox2
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Location = new System.Drawing.Point(142, 22);
+            this.textBox2.Location = new System.Drawing.Point(118, 8);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(101, 20);
             this.textBox2.TabIndex = 1;
@@ -78,12 +78,12 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(29, 111);
+            this.button1.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(9, 57);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(59, 40);
+            this.button1.Size = new System.Drawing.Size(40, 40);
             this.button1.TabIndex = 2;
             this.button1.Text = "+";
             this.button1.UseVisualStyleBackColor = false;
@@ -91,174 +91,188 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(104, 111);
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button2.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(52, 57);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(61, 40);
+            this.button2.Size = new System.Drawing.Size(40, 40);
             this.button2.TabIndex = 3;
             this.button2.Text = "-";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(183, 111);
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button3.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(94, 57);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(60, 40);
+            this.button3.Size = new System.Drawing.Size(40, 40);
             this.button3.TabIndex = 4;
             this.button3.Text = "*";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(29, 169);
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button4.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(136, 56);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(59, 37);
+            this.button4.Size = new System.Drawing.Size(40, 40);
             this.button4.TabIndex = 5;
             this.button4.Text = "/";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // textBox3
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(29, 71);
+            this.textBox3.Location = new System.Drawing.Point(77, 33);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(214, 20);
+            this.textBox3.Size = new System.Drawing.Size(142, 20);
             this.textBox3.TabIndex = 6;
             this.textBox3.Text = "0";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button5.Location = new System.Drawing.Point(104, 169);
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button5.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(9, 99);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(61, 37);
+            this.button5.Size = new System.Drawing.Size(40, 40);
             this.button5.TabIndex = 7;
             this.button5.Text = "x^y";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
-            this.button6.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button6.Location = new System.Drawing.Point(183, 169);
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button6.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(52, 99);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(60, 36);
+            this.button6.Size = new System.Drawing.Size(40, 40);
             this.button6.TabIndex = 8;
             this.button6.Text = "sqrt";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button8
             // 
-            this.button8.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button8.Location = new System.Drawing.Point(29, 223);
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button8.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(10, 141);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(59, 38);
+            this.button8.Size = new System.Drawing.Size(40, 40);
             this.button8.TabIndex = 10;
             this.button8.Text = "sin";
-            this.button8.UseVisualStyleBackColor = true;
+            this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
-            this.button7.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button7.Location = new System.Drawing.Point(106, 223);
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button7.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(52, 141);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(59, 38);
+            this.button7.Size = new System.Drawing.Size(40, 40);
             this.button7.TabIndex = 11;
             this.button7.Text = "cos";
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click_1);
             // 
             // button9
             // 
-            this.button9.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button9.Location = new System.Drawing.Point(184, 223);
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button9.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Location = new System.Drawing.Point(94, 141);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(59, 38);
+            this.button9.Size = new System.Drawing.Size(40, 40);
             this.button9.TabIndex = 12;
             this.button9.Text = "tg";
-            this.button9.UseVisualStyleBackColor = true;
+            this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
-            this.button10.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button10.Location = new System.Drawing.Point(29, 280);
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button10.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(136, 141);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(59, 38);
+            this.button10.Size = new System.Drawing.Size(40, 40);
             this.button10.TabIndex = 13;
             this.button10.Text = "ctg";
-            this.button10.UseVisualStyleBackColor = true;
+            this.button10.UseVisualStyleBackColor = false;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
-            this.button11.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button11.Location = new System.Drawing.Point(106, 280);
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button11.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(136, 99);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(59, 38);
+            this.button11.Size = new System.Drawing.Size(40, 40);
             this.button11.TabIndex = 14;
             this.button11.Text = "ln10";
-            this.button11.UseVisualStyleBackColor = true;
+            this.button11.UseVisualStyleBackColor = false;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
-            this.button12.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button12.Location = new System.Drawing.Point(184, 280);
+            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button12.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(94, 99);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(59, 38);
+            this.button12.Size = new System.Drawing.Size(40, 40);
             this.button12.TabIndex = 15;
             this.button12.Text = "ln";
-            this.button12.UseVisualStyleBackColor = true;
+            this.button12.UseVisualStyleBackColor = false;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 
-            this.button13.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button13.Location = new System.Drawing.Point(29, 333);
+            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button13.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Location = new System.Drawing.Point(10, 183);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(59, 38);
+            this.button13.Size = new System.Drawing.Size(40, 40);
             this.button13.TabIndex = 16;
             this.button13.Text = "asin";
-            this.button13.UseVisualStyleBackColor = true;
+            this.button13.UseVisualStyleBackColor = false;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
-            this.button14.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button14.Location = new System.Drawing.Point(106, 333);
+            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button14.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.Location = new System.Drawing.Point(52, 183);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(59, 38);
+            this.button14.Size = new System.Drawing.Size(40, 40);
             this.button14.TabIndex = 17;
             this.button14.Text = "acos";
-            this.button14.UseVisualStyleBackColor = true;
+            this.button14.UseVisualStyleBackColor = false;
             this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
-            this.button15.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button15.Location = new System.Drawing.Point(184, 333);
+            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button15.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.Location = new System.Drawing.Point(94, 183);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(59, 38);
+            this.button15.Size = new System.Drawing.Size(40, 40);
             this.button15.TabIndex = 18;
             this.button15.Text = "atg";
-            this.button15.UseVisualStyleBackColor = true;
+            this.button15.UseVisualStyleBackColor = false;
             this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(25, 45);
+            this.label1.Location = new System.Drawing.Point(13, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 23);
             this.label1.TabIndex = 19;
@@ -267,39 +281,46 @@
             // 
             // button16
             // 
-            this.button16.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button16.Location = new System.Drawing.Point(29, 377);
+            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button16.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.Location = new System.Drawing.Point(136, 183);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(59, 36);
+            this.button16.Size = new System.Drawing.Size(40, 40);
             this.button16.TabIndex = 20;
             this.button16.Text = "321";
-            this.button16.UseVisualStyleBackColor = true;
+            this.button16.UseVisualStyleBackColor = false;
             this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
-            this.button17.Location = new System.Drawing.Point(106, 377);
+            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button17.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button17.Location = new System.Drawing.Point(179, 56);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(59, 36);
+            this.button17.Size = new System.Drawing.Size(40, 83);
             this.button17.TabIndex = 21;
-            this.button17.Text = "button17";
-            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Text = "B\r\nu\r\nbb\r\nl\r\ne";
+            this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
-            this.button18.Location = new System.Drawing.Point(184, 377);
+            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button18.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button18.Location = new System.Drawing.Point(179, 141);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(59, 36);
+            this.button18.Size = new System.Drawing.Size(40, 82);
             this.button18.TabIndex = 22;
-            this.button18.Text = "button18";
-            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Text = "G\r\nn\r\nom\r\ne";
+            this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(267, 429);
+            this.ClientSize = new System.Drawing.Size(224, 227);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button16);

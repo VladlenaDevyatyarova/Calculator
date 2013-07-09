@@ -128,23 +128,6 @@ namespace Calculator
                 textBox3.Text = ERROR.Message;
             }
         }
-        private void Sort(string calcName)
-        {
-            var StringInt = new List<int>();
-            StringOperation calc = StringFabric.StringSort(calcName);
-            string[] s = (textBox1.Text).Split(new Char[] { ',' });
-            for (int i = 0; i < s.Length;i++)
-            {
-                StringInt.Add(Convert.ToInt32(s[i]));   
-            }
-            string Rezult = "";
-            int[] result = calc.Calculate(StringInt.ToArray());
-            for (int i = 0; i < s.Length; i++)
-            {
-                Rezult += result[i]+" ";
-            }
-            textBox3.Text = Rezult;
-        }
         private void button4_Click(object sender, EventArgs e)
         {
             Calc2("/");
@@ -175,5 +158,31 @@ namespace Calculator
             Sort("321");
         }
 
+        private void button17_Click(object sender, EventArgs e)
+        {
+            Sort("Bubble");
+        }
+        private void Sort(string calcName)
+        {
+            var StringInt = new List<int>();
+            StringOperation calc = StringFabric.StringSort(calcName);
+            string[] s = (textBox1.Text).Split(new Char[] { ',' });
+            for (int i = 0; i < s.Length; i++)
+            {
+                StringInt.Add(Convert.ToInt32(s[i]));
+            }
+            string Rezult = "";
+            int[] result = calc.Calculate(StringInt.ToArray());
+            for (int i = 0; i < s.Length; i++)
+            {
+                Rezult += result[i] + " ";
+            }
+            textBox3.Text = Rezult;
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            Sort("Gnome");
+        }
     }
 }
